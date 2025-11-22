@@ -1,0 +1,8 @@
+.env
+# Foundry artifacts
+/out
+/cache
+/lib
+
+# Dependency management (if using node/npm)
+/node_modules

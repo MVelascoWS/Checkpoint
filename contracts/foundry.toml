@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.24"
+optimizer = true
+optimizer_runs = 200
+
+[rpc_endpoints]
+checkpoint = "https://checkpoint-2763834965749000-1.jsonrpc.sagarpc.io"
+
+[etherscan]
+checkpoint = { key = "not-needed", url = "https://checkpoint-2763834965749000-1.sagaexplorer.io/" }
