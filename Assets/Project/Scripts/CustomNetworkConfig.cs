@@ -1,7 +1,4 @@
 using UnityEngine;
-using Privy;
-using System.Collections.Generic;
-using System;
 
 /// <summary>
 /// Configuración de redes EVM personalizadas para Privy Unity SDK
