@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff98a0e143ab1ee4abbbbe0893f83b80, type: 3}
+  m_Name: CustomNetworkConfig
+  m_EditorClassIdentifier: 
+  networkName: Checkpoint
+  chainId: 2763834965749000
+  chainIdHex: 
+  rpcUrl: https://checkpoint-2763834965749000-1.jsonrpc.sagarpc.io
+  blockExplorerUrl: https://checkpoint-2763834965749000-1.sagaexplorer.io/
+  currencyName: CKP
+  currencySymbol: CKP
+  currencyDecimals: 18
+  networkType: 2
+  isTestnet: 0
