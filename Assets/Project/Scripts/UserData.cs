@@ -1,3 +1,4 @@
+using System.Numerics;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "UserData", menuName = "Checkpoint/User Data", order = 1)]
@@ -13,6 +14,12 @@ public class UserData : ScriptableObject
 
     [SerializeField] private bool isVerified;
 
+    [SerializeField] private string address;
+
+    [SerializeField] private BigInteger food;
+    [SerializeField] private BigInteger wood;
+    [SerializeField] private BigInteger gold;
+    [SerializeField] private BigInteger stone;
     // Propiedades públicas
     public string Email
     {
@@ -20,11 +27,39 @@ public class UserData : ScriptableObject
         set => email = value;
     }
 
+    public BigInteger Food
+    {
+        get => food;
+        set => food = value;
+    }
+    public BigInteger Wood
+    {
+        get => wood;
+        set => wood = value;
+    }
+    public BigInteger Gold
+    {
+        get => gold;
+        set => gold = value;
+    }
+    public BigInteger Stone
+    {
+        get => stone;
+        set => stone = value;
+    }
+
     public string Code
     {
         get => code;
         set => code = value;
     }
+
+    public string Address
+    {
+        get => address;
+        set => address = value;
+    }
+
 
     public string Timestamp
     {
